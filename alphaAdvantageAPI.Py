@@ -35,7 +35,7 @@ def timeSeriesIntraday(symbol, interval, size='compact'):
     """
     Get the intraday value of a stock or ETF.
     
-    symbol as tring
+    symbol as string
     interval: 1min, 5min, 15min, 30min, 60min
     size:
         compact = latest 100 calls
@@ -63,7 +63,7 @@ def timeSeriesDaily(symbol, size='compact'):
     Get the value of a stock or ETF or past 100 days or max 20 years.
     Returns Open, High, Low, Close, Volume
     
-    symbol as tring
+    symbol as string
     size: 
         compact = last 100 days
         full = all up to 20 years
@@ -88,7 +88,7 @@ def timeSeriesDailyAdj(symbol, size='compact'):
     Get the adjusted value of a stock or ETF or past 100 days or max 20 years.
     Returns Open, High, Low, Close, Volume, Daily Adj Close, Split/Dividend Events
     
-    symbol as tring
+    symbol as string
     size: 
         compact = last 100 days
         full = all up to 20 years
